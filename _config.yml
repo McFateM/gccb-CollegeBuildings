@@ -18,7 +18,7 @@ source-code: https://github.com/Digital-Grinnell/collectionbuilder-csv
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Grinnell College CollectionBuilder CSV Template
+title: Grinnell College Buildings - June 2026
 # tagline, a short phrase that will appear throughout the site in the top banner
 tagline: Digital Collection Magic with Static Web Technologies
 # description appears in meta tags and other locations
@@ -36,7 +36,7 @@ timezone: America/Chicago
 #
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: grinnell-CB-CSV-demo
+metadata: gccb-CollegeBuildings-2026
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 # page_gen:
