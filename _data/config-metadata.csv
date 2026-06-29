@@ -1,0 +1,17 @@
+field,display_name,browse_link,external_link,dc_map,schema_map
+title,Title,,,title,headline
+creator,Creator,,,creator,creator
+date,Date Created,,,date,dateCreated
+description,Description,,,description,description
+collection,Collection,,,,isPartOf,collection
+subject,Subjects,true,,subject,keywords
+people,People,true,,keywords,person,    
+location,Location,,,coverage,contentLocation
+latitude,Latitude,,,,
+longitude,Longitude,,,,
+source,Source,,,,
+identifier,Source Identifier,,,,
+type,Type,,,type,
+format,Format,,,,encodingFormat
+language,Language,,,language,
+rightsstatement,,,,rights,license

@@ -1,0 +1,10 @@
+field,display_name,btn,hidden,sort_name,facet_name
+date,Date,,,Date Created
+description,,,true,
+creator,Creator,,,
+collection, Collection,,,
+subject,,true,,Subjects,
+location,,true,,,Location Depicted
+identifier,,,,Identifier,
+focused_movement,Movement,true,,Movement
+people,People,true,,People

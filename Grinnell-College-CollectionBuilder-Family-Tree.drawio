@@ -1,0 +1,131 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:141.0) Gecko/20100101 Firefox/141.0" version="28.0.7">
+  <diagram name="Page-1" id="xfICfgh5GZFHUXYX1ghy">
+    <mxGraphModel dx="1300" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Tse-7rxfkuOb4b0HgU-C-35" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;change&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;and&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;span style=&quot;color: rgb(0, 204, 0);&quot;&gt;commit&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.uTurnArrow;dy=11;arrowHead=43;dx2=25;flipH=1;strokeColor=#FF9933;" parent="1" vertex="1">
+          <mxGeometry x="380" y="597" width="90.73" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Tse-7rxfkuOb4b0HgU-C-12" value="&lt;span style=&quot;color: rgb(0, 204, 0);&quot;&gt;Digital-Grinnell/collectionbuilder-csv&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;strokeColor=#00CC00;" parent="1" vertex="1">
+          <mxGeometry x="431" y="299" width="272" height="170" as="geometry">
+            <mxRectangle x="320" y="30" width="240" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tse-7rxfkuOb4b0HgU-C-13" value="Grinnell College &quot;base&quot; CollectionBuilder repository.&amp;nbsp;&amp;nbsp;&lt;br&gt;Has Grinnell-specific style and additional features&lt;br&gt;like Markdown objects, granular build info, and more." style="text;whiteSpace=wrap;html=1;align=center;fontSize=16;" parent="Tse-7rxfkuOb4b0HgU-C-12" vertex="1">
+          <mxGeometry x="6" y="44" width="260" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Tse-7rxfkuOb4b0HgU-C-19" value="&lt;font style=&quot;font-size: 18px; color: rgb(127, 0, 255);&quot;&gt;&lt;b&gt;Mark&#39;s Workstation&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="149" y="302" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tse-7rxfkuOb4b0HgU-C-20" value="&lt;span style=&quot;color: rgb(127, 0, 255);&quot;&gt;GCCB-physics-museum&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;strokeColor=#7F00FF;" parent="1" vertex="1">
+          <mxGeometry x="108" y="339" width="272" height="171" as="geometry">
+            <mxRectangle x="320" y="30" width="240" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tse-7rxfkuOb4b0HgU-C-21" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;This project is a reflection of&lt;br&gt;`Digital-Grinnell/collectionbuilder-csv`&lt;br&gt; with Physics Museum-specific content gleaned from Charlie Duke&#39;s&lt;br&gt;`&lt;a class=&quot;Link--inTextBlock&quot; href=&quot;https://github.com/dukecld/cb-indep`&quot;&gt;https://github.com/dukecld/cb-indep`&lt;/a&gt; repository. &lt;br&gt;&lt;/font&gt;      " style="text;whiteSpace=wrap;html=1;align=center;fontSize=16;" parent="Tse-7rxfkuOb4b0HgU-C-20" vertex="1">
+          <mxGeometry x="6" y="44" width="260" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="Tse-7rxfkuOb4b0HgU-C-22" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=65;endSize=8.61;endWidth=22;fillColor=default;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="448" y="334" as="sourcePoint" />
+            <mxPoint x="327" y="346.2928286852589" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tse-7rxfkuOb4b0HgU-C-23" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 204, 0);&quot;&gt;clone&lt;/span&gt; w/&amp;nbsp;&lt;br&gt;new GCCB-&amp;nbsp;&lt;br&gt;name&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Tse-7rxfkuOb4b0HgU-C-22" vertex="1" connectable="0">
+          <mxGeometry x="-0.084" y="2" relative="1" as="geometry">
+            <mxPoint x="3" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tse-7rxfkuOb4b0HgU-C-28" value="&lt;font style=&quot;font-size: 18px; color: rgb(255, 153, 51);&quot;&gt;&lt;b&gt;Charlie&#39;s Workstation&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="319" y="561" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tse-7rxfkuOb4b0HgU-C-33" value="&lt;font style=&quot;font-size: 18px; color: rgb(0, 204, 0);&quot;&gt;fork&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry x="0.1461" relative="1" as="geometry">
+            <mxPoint x="566" y="228" as="sourcePoint" />
+            <mxPoint x="566" y="308" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570.5" y="268" />
+              <mxPoint x="570.5" y="268" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tse-7rxfkuOb4b0HgU-C-34" value="&lt;font style=&quot;font-size: 18px; color: rgb(0, 204, 0);&quot;&gt;clone&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.893;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry x="-0.2812" y="1" relative="1" as="geometry">
+            <mxPoint x="283" y="508" as="sourcePoint" />
+            <mxPoint x="283.89599999999996" y="597.0260000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="283" y="548" />
+              <mxPoint x="284" y="548" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tse-7rxfkuOb4b0HgU-C-36" value="&lt;font style=&quot;font-size: 18px; color: rgb(0, 204, 0);&quot;&gt;pull request&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.081;exitY=-0.023;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Tse-7rxfkuOb4b0HgU-C-29" edge="1">
+          <mxGeometry x="0.0008" relative="1" as="geometry">
+            <mxPoint x="150" y="508" as="sourcePoint" />
+            <mxPoint x="130" y="508" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="548" />
+              <mxPoint x="130" y="548" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tse-7rxfkuOb4b0HgU-C-38" value="&lt;div align=&quot;center&quot; style=&quot;font-weight: normal; line-height: 18px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); font-size: 18px;&quot;&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;a href=&quot;https://yellow-tree- 09e303e1e.1. azurestaticapps.net&quot;&gt;https://yellow-tree-&lt;br&gt;09e303e1e.1.&lt;br&gt;azurestaticapps.net&lt;/a&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Helvetica&quot;&gt;to share&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=center;strokeColor=#00CCCC;" parent="1" vertex="1">
+          <mxGeometry x="760" y="510" width="260" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="Tse-7rxfkuOb4b0HgU-C-39" value="&lt;font style=&quot;font-size: 18px; color: rgb(0, 204, 204);&quot;&gt;&lt;b&gt;Azure Static Web App&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="789" y="473" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Tse-7rxfkuOb4b0HgU-C-47" value="&lt;font style=&quot;font-size: 16px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;br&gt;automatic deploy on change&lt;br&gt;(uses &lt;span style=&quot;color: rgb(0, 204, 0);&quot;&gt;GitHub Actions&lt;/span&gt;)&lt;/font&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=15;dx=38;arrowHead=55;flipV=1;strokeColor=#00CC00;" parent="1" vertex="1">
+          <mxGeometry x="370" y="467" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Tse-7rxfkuOb4b0HgU-C-1" value="CollectionBuilder/collectionbuilder-csv" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fontColor=#00CC00;strokeColor=#00CC00;" parent="1" vertex="1">
+          <mxGeometry x="430" y="70" width="272" height="170" as="geometry">
+            <mxRectangle x="320" y="30" width="240" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tse-7rxfkuOb4b0HgU-C-6" value="CollectionBuilder-CSV is a&lt;br&gt;&quot;stand alone&quot; template for creating digital collection&lt;br&gt;and exhibit websites using Jekyll&lt;br&gt;and a metadata CSV." style="text;whiteSpace=wrap;html=1;align=center;fontSize=16;" parent="Tse-7rxfkuOb4b0HgU-C-1" vertex="1">
+          <mxGeometry x="6" y="45" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tse-7rxfkuOb4b0HgU-C-11" value="&lt;font style=&quot;font-size: 18px; color: rgb(0, 204, 0);&quot;&gt;&lt;b&gt;GitHub&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="526" y="24" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MkRkW_FTMVN4ikkAUPbI-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;a href=&quot;http://127.0.0.1:4000/&quot;&gt;http://127.0.0.1:4000/&lt;br&gt;&lt;/a&gt;to test&lt;/font&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=center;strokeColor=#FF9933;" vertex="1" parent="1">
+          <mxGeometry x="502" y="625" width="220" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="Tse-7rxfkuOb4b0HgU-C-29" value="&lt;span style=&quot;color: rgb(255, 153, 51);&quot;&gt;GCCB-physics-museum&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fillColor=default;strokeColor=#FF9933;" parent="1" vertex="1">
+          <mxGeometry x="108" y="596" width="272" height="171" as="geometry">
+            <mxRectangle x="320" y="30" width="240" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tse-7rxfkuOb4b0HgU-C-30" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;This project is a reflection of&lt;br&gt;`Digital-Grinnell/collectionbuilder-csv`&lt;br&gt; with Physics Museum-specific content gleaned from Charlie Duke&#39;s&lt;br&gt;`&lt;a class=&quot;Link--inTextBlock&quot; href=&quot;https://github.com/dukecld/cb-indep`&quot;&gt;https://github.com/dukecld/cb-indep`&lt;/a&gt; repository. &lt;br&gt;&lt;/font&gt;      " style="text;whiteSpace=wrap;html=1;align=center;fontSize=16;" parent="Tse-7rxfkuOb4b0HgU-C-29" vertex="1">
+          <mxGeometry x="6" y="44" width="260" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="MkRkW_FTMVN4ikkAUPbI-2" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tse-7rxfkuOb4b0HgU-C-29" target="MkRkW_FTMVN4ikkAUPbI-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="840" as="sourcePoint" />
+            <mxPoint x="330" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="793" />
+              <mxPoint x="280" y="820" />
+              <mxPoint x="320" y="820" />
+              <mxPoint x="430" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MkRkW_FTMVN4ikkAUPbI-3" value="&lt;font style=&quot;font-size: 18px; color: rgb(255, 0, 255);&quot;&gt;bundle exec jekyll serve&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MkRkW_FTMVN4ikkAUPbI-2">
+          <mxGeometry x="0.0611" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MkRkW_FTMVN4ikkAUPbI-4" value="&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Grinnell College CollectionBuilder Family Tree&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Portions of this diagram use Charlie Duke&#39;s physics museum project as an example.&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=1;strokeColor=default;strokeWidth=3;labelPadding=10;perimeterSpacing=3;fixDash=0;container=0;spacingLeft=5;spacingBottom=5;spacingRight=5;spacingTop=5;spacing=5;align=center;" vertex="1" parent="1">
+          <mxGeometry x="760" y="70" width="290" height="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

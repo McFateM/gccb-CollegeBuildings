@@ -1,0 +1,12 @@
+display_name,stub,dropdown_parent
+Home,/,
+Browse,/browse.html,
+Collections,/collections.html,Browse by
+About,/about.html,
+Visualization,/visualization.html
+Browse by
+Subjects,/subjects.html,Browse by
+Locations,/locations.html,Browse by
+Map,/map.html,Browse by
+Timeline,/timeline.html,Browse by
+Data,/data.html,Browse by

@@ -1,0 +1,84 @@
+---
+# Unique Template for Event Browse Page. Make sure to replace all mentions of featured_event with the actual event name of the column that holds the metadata value for your page. 
+layout: page
+custom-foot: js/unique-browse-js.html
+---
+
+{{ content }}
+
+<!DOCTYPE html>
+<html lang="en">
+<!--Create page and set custom css file --> 
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/cb.scss">
+</head>
+<body>
+<!--Set feature image for the page and the design for the header--> 
+    <header>
+        <img src="{{ page.featured_image }}" alt="Featured Image">
+        <h1>{{ page.title }}</h1>
+    </header>
+<!--Create text boxes for the body--> 
+    <main>
+        <div class="content-box">
+            <h2>Movement at Grinnell College</h2>
+            <p>{{ page.institution_event }}</p>
+        </div>
+        <div class="content-box">
+            <h2>Movement in the USA</h2>
+            <p>{{ page.us_event }}</p>
+        </div>
+<!--Create the browse item section--> 
+        <div class="browse-section">
+            <div class="row mb-3 justify-content-center">
+                <div class="col-md-8 text-center">
+                    <form role="search" id="browseFilter" onsubmit="submitFilter(); return false;">
+                        <div class="input-group input-group-lg">
+                            <input type="text" class="form-control" id="filterTextBox" placeholder="Filter ... " aria-label="Search"> 
+                            <button class="btn btn-success" type="submit" title="Filter items" id="filterButton">Search</button>
+                            <button class="btn btn-outline-secondary filter" onclick="resetFilter(); return false;" data-filter="">Reset</button>
+                        </div>
+                    </form>
+                    <div class="h2" id="numberOf"></div>
+                </div>
+                <div class="col-md-2">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary mt-1 dropdown-toggle" type="button" id="browseSortButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Sort by <span id="sortFilter">Random</span>
+                        </button>
+                        <div class="dropdown-menu browse-sort-menu" aria-labelledby="browseSortButton">
+                            <button class="dropdown-item browse-sort-item active" data-filter="random">Random</button>
+                            <button class="dropdown-item browse-sort-item" data-filter="title">Title</button>
+                            {% assign sort_options = site.data.config-browse | where_exp: 'i','i.sort_name != nil' %}
+                            {% for o in sort_options %}
+                            <button class="dropdown-item browse-sort-item" data-filter="{{ o.field | escape }}">{{ o.sort_name }}</button>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="loadingIcon" class="text-center">
+                <div class="spinner-border text-dark" role="status"><span class="visually-hidden">Loading...</span></div>
+            </div>
+            <div class="row" id="browseItems">
+                {% for item in site.collections.gallery %}
+                    {% if item.focused_event %}
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="{{ item.image }}" class="card-img-top" alt="{{ item.title }}">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ item.title }}</h5>
+                                <p class="card-text">{{ item.description }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+
